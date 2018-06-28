@@ -1,0 +1,5 @@
+server:
+    port: 8080
+cxfserver:
+    serviceClass: serviceClass=com.camel.cxf.server.CamelCXFServiceInter
+    wsdlLocation: wsdlURL=wsdl/queryService.wsdl

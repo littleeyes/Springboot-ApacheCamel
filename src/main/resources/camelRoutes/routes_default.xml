@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <route from="http://localhost:8080/hello" fromMethod="post" type="http" topic="bj" group="user"/>
+    <route from="http://127.0.0.1:8089/bj/gjj/index" fromMethod="get" type="http" topic="fz" group="houseFind"/>
+
+    <route from="http://localhost:8088/CamelCXFService/queryService"
+           fromMethod="post" type="webservice" topic="cxfbj" group="user">
+    </route>
+
+</routes>
+
+
